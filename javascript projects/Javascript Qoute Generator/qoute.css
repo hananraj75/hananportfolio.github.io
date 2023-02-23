@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+body{
+
+    background: url(clay-banks-z_DkoUqgx6M-unsplash.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+    
+}
+.main{
+    width: 500px;
+    height: 400px; 
+    
+}
+.head{
+    width: 80%;;
+    background: #262626;
+border: 2px solid whitesmoke;
+    color: whitesmoke;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 20px auto;
+    font-size: 1.1rem;
+}
+.head:hover{
+    background: #1d1919;
+}
+.crt{
+    background-color: #fff;
+    height: 210px;
+    box-shadow: 0 0 12px;
+    border-radius: 10px;
+    padding: 30px 20px;
+}
+
+.crt .text{
+font-size: 1.30rem;
+padding: 5px;
+
+
+}
+
+.crt .man{
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    color: rgb(219, 12, 12);
+    font-weight: bolder;
+    margin-top: 17px;
+}
+
+.new-qoute{
+    font-size: 1.3rem;
+background-color: #262626;
+color: whitesmoke;
+border: 2px solid black;
+border-radius: 5px;
+width: 130px;
+height: 40px;
+padding: auto;
+margin-top: 20px;
+
+}
+
+.new-qoute:active{
+    background: rgb(15, 15, 15);
+}
+
+
+
+
